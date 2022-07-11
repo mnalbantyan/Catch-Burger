@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>Catch the Burgers!</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch the Burgers!</h1>
+        <button class="btn" id="start-btn"><h3>Play Game</h3></button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your "favorite" burger?</h1>
+        <ul class="burgers-list">
+            <li>
+                <button class="choose-burger-btn">
+                    <p><h3>Classic</h3></p>
+                    <img src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96714.png" alt="classic">
+                </button>
+            </li>
+            <li>
+                <button class="choose-burger-btn">
+                    <p><h3>Double</h3></p>
+                    <img src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png" alt="double">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">Are you still playing? <br> You can't eat all the burgers fatty!</h5>
+
+    
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
